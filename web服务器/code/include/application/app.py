@@ -16,7 +16,7 @@ def parse_request(request_data):
 
     # 设置默认首页
     if file_path == '/':
-        file_path = "/test.html"
+        file_path = "/index.html"
     return file_path
 
 
