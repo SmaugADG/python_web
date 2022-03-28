@@ -21,7 +21,11 @@ class Test(object):
     def run(self):
         print("runing...")
     def __call__(self, *args, **kwargs):
-        print("--call--")
+        print("--开始验证--")
+        self.func()
+    # def test(self, *args, **kwargs):
+    #     print("--验证结束--")
+    #     self.func()
 @Test
 def login():
     print("开始登录")
